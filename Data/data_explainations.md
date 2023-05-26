@@ -1,1 +1,3 @@
-TODO
+Trainset
+Testset
+Showcaseset
