@@ -1,5 +1,6 @@
 # CS413-Computational-Photography
 Project of CS413 - Computational Photography course on TimeWarp, Spring 2023
+
 Authors: Juliette Parchet, Camille Montemagni, Marino Müller
 
 # Prerequesits
@@ -8,3 +9,21 @@ Authors: Juliette Parchet, Camille Montemagni, Marino Müller
 - Install the needed packages `pip install -r requirements.txt`
 
 **Note:** Tested on Python 3.8.7
+
+# Usage
+
+- Use `pretrained_model_showcase.ipynb` if you want to load our pretrained model and gerate some show case images.
+- With `train_the_model.ipynb` you can train the model with our dataset or your won dataset yourself.
+
+# Results
+
+## Prompt2Prompt
+Here you see a comparison between Prompt2Prompt and our model, when trying to predict how an image would look like when it was abandoned for 100 years (time warp).
+Note: In Prompt2Prompt the input image is also generated with the Prompt2Prompt model. 
+![Prompt2Prompt](Data/Results/street10.png)
+
+## Real life Photographs
+Here you see some examples of real world photographs we took and let our model predict how the time warp would look like.
+
+![street](Data/Results/real_life2.png)
+![inside building](Data/Results/BC.png)
