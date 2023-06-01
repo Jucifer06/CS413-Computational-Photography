@@ -13,7 +13,7 @@ Authors: Juliette Parchet, Camille Montemagni, Marino Müller
 # Usage
 
 - Use `pretrained_model_showcase.ipynb` if you want to load our pretrained model and gerate some show case images.
-- With `train_the_model.ipynb` you can train the model with our dataset or your won dataset yourself.
+- With `train_the_model.ipynb` you can train the model with our dataset or your won dataset yourself. You will need to edit the paths according to your dataset and checkpoint directories you want to use.
 
 # Results
 
