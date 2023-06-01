@@ -4,5 +4,7 @@ Authors: Juliette Parchet, Camille Montemagni, Marino Müller
 
 # Prerequesits
 - First you need to download the dataset from this [link](https://drive.google.com/uc?export=download&id=1oS67xo1ti2JCGPZAq9G7M213-i1VxO6I) and save it as `./Data/Dataset.zip`. 
-- Next you need to download the pretrained weights folder from this [link](https://drive.google.com/uc?export=download&id=1z4NKPolPDfeEI3njuIFvbDQvMIQk9Nhl) and save it in ./checkpoints. Then unzip the folder with `unzip ./checkpoints/checkpoint_pretrained.zip`. Check you have now an non-empty folder `./checkpoints/checkpoint_pretrained`.
+- Next you need to download the pretrained weights folder from this [link](https://drive.google.com/uc?export=download&id=1z4NKPolPDfeEI3njuIFvbDQvMIQk9Nhl) and save it in ./checkpoints/. Then unzip the folder with `unzip ./checkpoints/checkpoint_pretrained.zip`. Check you have now an non-empty folder `./checkpoints/checkpoint_pretrained/`.
 - Install the needed packages `pip install -r requirements.txt`
+
+**Note:** Tested on Python 3.8.7
