@@ -20,6 +20,7 @@ Authors: Juliette Parchet, Camille Montemagni, Marino Müller
 ## Prompt2Prompt
 Here you see a comparison between Prompt2Prompt and our model, when trying to predict how an image would look like when it was abandoned for 100 years (time warp).
 Note: In Prompt2Prompt the input image is also generated with the Prompt2Prompt model. 
+
 ![Prompt2Prompt](Data/Results/street10.png)
 
 ## Real life Photographs
