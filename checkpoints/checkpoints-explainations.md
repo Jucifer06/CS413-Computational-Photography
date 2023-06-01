@@ -1,1 +1,1 @@
-
+**Note:** To use our pretrained checkpoints/weights you need to first download this folder from this [link](https://drive.google.com/uc?export=download&id=1z4NKPolPDfeEI3njuIFvbDQvMIQk9Nhl) and save it in this folder. Then unzip the folder with `unzip ./checkpoint_pretrained.zip`. Check you have now an non-empty folder `./checkpoint_pretrained/`.
