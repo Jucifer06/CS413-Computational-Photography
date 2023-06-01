@@ -1,0 +1,8 @@
+jupyter
+tensorflow
+pathlib
+datetime
+natsort
+glob
+matplotlib
+IPython
