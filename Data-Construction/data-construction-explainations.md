@@ -1,4 +1,6 @@
-# EXP3:
+# Explain the dataset construction process
+
+## EXP3:
 
 First real dataset creation after some previous experiments.
 
@@ -21,7 +23,7 @@ only AttentionRefine
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 50 |guidance_scale: 7.5 |controller: AttentionRefine |stable: ldm_stable"
 
 
-# EXP4:
+## EXP4:
 
 Big dataset ceration of various interiors
 
@@ -43,7 +45,7 @@ only AttentionRefine
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 50 |guidance_scale: 7.5 |controller: AttentionRefine |stable: ldm_stable"
     
 
-# EXP5:
+## EXP5:
 
 more images focused on cities, with objects in the foreground, with/without humans
  
@@ -64,7 +66,7 @@ only AttentionRefine
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 50 |guidance_scale: 7.5 |controller: AttentionRefine |stable: ldm_stable"
 
 
-# EXP6:
+## EXP6:
 
 First try of AttentionReweight
 
@@ -86,7 +88,7 @@ use Attention reweight on ("abandoned","dirty","rusty","uncrowded","post-apocaly
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 150 |guidance_scale: 7.5 |controller: AttentionReweight |stable: ldm_stable"
 
 
-# EXP7:
+## EXP7:
 
 54 images
 
@@ -103,7 +105,7 @@ use Attention reweight on ("abandoned","dirty","rusty","uncrowded","post-apocaly
 
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 75 |guidance_scale: 7.5 |controller: AttentionReweight |stable: ldm_stable"
 
-# EXP8:
+## EXP8:
 
 28 image pairs
 
@@ -122,7 +124,7 @@ AttentionReweight on ("abandoned","deserted","post-apocalyptic") with factor of 
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 150 |guidance_scale: 7.5 |controller: AttentionReweight |stable: ldm_stable"
 
 
-# EXP9:
+## EXP9:
 
 29 image pairs
 
@@ -140,7 +142,7 @@ AttentionReweight on ("abandoned","dirty","rusty","uncrowded","post-apocalyptic"
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 75 |guidance_scale: 7.5 |controller: AttentionReweight |stable: ldm_stable"
 
 
-# EXP10:
+## EXP10:
 
 Only cars in urban and landscape settings
 
@@ -165,7 +167,7 @@ AttentionReweight on  ("abandoned","dirty","rusty","uncrowded","post-apocalyptic
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 75 |guidance_scale: 7.5 |controller: AttentionReweight |stable: ldm_stable"
 
 
-# EXP11:
+## EXP11:
 
 Only cars in urban setting
 
@@ -187,7 +189,7 @@ AttentionReweight on ("destroyed", "abandoned","dirty","rusty","uncrowded","post
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 75 |guidance_scale: 7.5 |controller: AttentionReweight |stable: ldm_stable"
 
 
-# EXP12:
+## EXP12:
 
 Ony cars in urban setting
 
@@ -209,7 +211,7 @@ AttentionReweight on ("destroyed", "abandoned","dirty","rusty","uncrowded","post
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 75 |guidance_scale: 7.5 |controller: AttentionReweight |stable: ldm_stable"
 
 
-# EXP13:
+## EXP13:
 
 Only cities and villages, with and without people
 
@@ -228,7 +230,7 @@ AttentionReweight on ("destroyed", "abandoned","dirty","rusty","uncrowded","post
 	"cross_replace_steps: 0.1 |self_replace_steps: 0.9 |num_steps: 75 |guidance_scale: 7.5 |controller: AttentionReweight |stable: ldm_stable"
 
 
-# EXP14:
+## EXP14:
 
 More image of urban settings, but never incorporated in the training dataset (came at a late point of the project, when the model was already trained and worked very well)
 
