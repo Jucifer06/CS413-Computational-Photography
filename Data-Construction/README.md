@@ -1,3 +1,5 @@
+Please find the data folder at this GoogleDocs link: [link]"https://drive.google.com/drive/folders/1uacHidJSyg5niW94qzlrMQZdz4Wciz6t?usp=sharing"
+
 # Explain the dataset construction process
 
 ## EXP3:
